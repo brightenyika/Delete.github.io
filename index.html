@@ -4,7 +4,21 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-	
+	<style>
+    .responsive-heading {
+        font-size: clamp(20px, 4vw, 36px);
+        line-height: 1.3;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    @media screen and (max-width: 768px) {
+        .responsive-heading {
+            font-size: clamp(20px, 5vw, 28px);
+        }
+    }
+</style>
+
 <html>
 	<head>
     <title>Bright Enyika Portfolio</title>
@@ -49,7 +63,7 @@
 					<!-- Intro -->
 					<article id="intro">
 	
-								<h2 class="major">Welcome to My Portfolio</h2>
+								<h2 class="major responsive-heading">Welcome to My Portfolio</h2>
 
 								<p>This website features a collection of my projects, highlighting my skills and experience in data analytics and business intelligence. <a href="#work">View Projects</a>.</p>
 								<p></p>
